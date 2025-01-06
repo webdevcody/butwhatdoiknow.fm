@@ -42,11 +42,21 @@ export default function Home() {
                 key={episode.id}
                 className="bg-gray-800/50 backdrop-blur rounded-2xl p-6 hover:bg-gray-800/70 transition-colors flex gap-6"
               >
-                <div className="flex-shrink-0 w-24 h-24 flex flex-col items-center justify-center bg-white/10 rounded-xl">
-                  <div className="text-xs text-gray-400 mb-1">EP</div>
-                  <div className="text-3xl font-bold text-white">
-                    {episode.episode}
-                  </div>
+                <div className="flex-shrink-0 size-80 rounded-xl overflow-hidden">
+                  {episode.image ? (
+                    <img
+                      src={episode.image}
+                      alt={`${episode.title} cover`}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className="w-full h-full flex flex-col items-center justify-center bg-white/10">
+                      <div className="text-xs text-gray-400 mb-1">EP</div>
+                      <div className="text-3xl font-bold text-white">
+                        {episode.episodeNumber}
+                      </div>
+                    </div>
+                  )}
                 </div>
 
                 <div className="flex-grow">
