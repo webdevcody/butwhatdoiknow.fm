@@ -37,4 +37,16 @@ export const episodes: Episode[] = [
     season: 1,
     episode: 1,
   },
+  {
+    id: 2,
+    title: "The Pregancy from H**L That Almost Killed Me",
+    description:
+      "In this episode, I share my harrowing experience with multiple pregnancy complications including peripartum cardiomyopathy and pubic symphysis dysfunction. I discuss how these conditions impacted my pregnancy journey, the challenges of managing multiple serious health conditions simultaneously, and my ongoing journey with perimenopause. This raw and emotional episode aims to raise awareness about these lesser-known but serious pregnancy-related conditions.",
+    date: "2025-01-06",
+    file: "/episodes/0002-pregnancy-from-hell.mp3",
+    duration: "55:16",
+    explicit: false,
+    season: 1,
+    episode: 2,
+  },
 ];
