@@ -5,8 +5,8 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
       <header className="pt-20 pb-16 px-8 text-center bg-gradient-to-b from-gray-800/50">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
-            {podcastInfo.title}
+          <h1 className="font-playfair text-5xl font-bold mb-6 bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent">
+            {podcastInfo.title}™
           </h1>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
             {podcastInfo.description}
