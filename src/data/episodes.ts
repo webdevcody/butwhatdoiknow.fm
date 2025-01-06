@@ -62,7 +62,7 @@ export const episodes: Episode[] = [
   },
   {
     id: 2,
-    title: "The Pregancy from H**L That Almost Killed Me",
+    title: "The Pregancy from H**L that Almost Killed Me",
     subtitle: "A harrowing story of pregnancy complications",
     description:
       "In this episode, I share my harrowing experience with multiple pregnancy complications including peripartum cardiomyopathy and pubic symphysis dysfunction. I discuss how these conditions impacted my pregnancy journey, the challenges of managing multiple serious health conditions simultaneously, and my ongoing journey with perimenopause. This raw and emotional episode aims to raise awareness about these lesser-known but serious pregnancy-related conditions.",
