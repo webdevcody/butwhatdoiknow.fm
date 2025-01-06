@@ -29,7 +29,7 @@ export interface PodcastInfo {
 }
 
 export const podcastInfo: PodcastInfo = {
-  title: "But, What Do I Know?",
+  title: "But Who the Hell Knows!",
   description:
     "A podcast to share my thoughts about life, relationships, health, and everything in between.",
   subtitle: "Life, relationships, health, and everything in between",
