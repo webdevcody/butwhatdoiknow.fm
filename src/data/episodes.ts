@@ -12,8 +12,9 @@ export interface Episode {
 }
 
 export const podcastInfo = {
-  title: "Podcast Name",
-  description: "Talking about life, relationships, and everything in between.",
+  title: "But What Do I Know",
+  description:
+    "A podcast to share my thoughts about life, relationships, health, and everything in between.",
   language: "en",
   author: "Victoria Seibert",
   email: "vmatandiko@gmail.com",
