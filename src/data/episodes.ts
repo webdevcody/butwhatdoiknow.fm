@@ -40,7 +40,7 @@ export const podcastInfo: PodcastInfo = {
   image: "/images/cover.jpeg",
   category: "Society & Culture",
   explicit: false,
-  websiteUrl: "https://yourwebsite.com",
+  websiteUrl: "https://butwhothehellknows.com",
   type: "episodic",
 };
 
