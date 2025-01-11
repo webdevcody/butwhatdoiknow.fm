@@ -37,7 +37,7 @@ export const podcastInfo: PodcastInfo = {
   author: "Victoria Seibert",
   email: "vmatandiko@gmail.com",
   copyright: `© ${new Date().getFullYear()} Victoria Seibert`,
-  image: "/images/cover.jpeg",
+  image: "/images/cover-art.jpeg",
   category: "Society & Culture",
   explicit: false,
   websiteUrl: "https://butwhothehellknows.com",
@@ -58,7 +58,7 @@ export const episodes: Episode[] = [
     explicit: false,
     seasonNumber: 1,
     episodeNumber: 1,
-    image: `/images/episode-1.jpeg`,
+    image: `/images/episode-0001.jpeg`,
   },
   {
     id: 2,
@@ -72,7 +72,7 @@ export const episodes: Episode[] = [
     explicit: false,
     seasonNumber: 1,
     episodeNumber: 2,
-    image: "/images/episode-2.jpeg",
+    image: "/images/episode-0002.jpeg",
   },
   {
     id: 3,
@@ -86,6 +86,6 @@ export const episodes: Episode[] = [
     explicit: false,
     seasonNumber: 1,
     episodeNumber: 3,
-    image: "/images/episode-3.jpeg",
+    image: "/images/episode-0003.jpeg",
   },
 ];
