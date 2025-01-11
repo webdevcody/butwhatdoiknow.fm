@@ -20,7 +20,7 @@ const playfairDisplay = Playfair_Display({
 export const metadata: Metadata = {
   title: "But Who the Hell Knows!?",
   description:
-    "A podcast, by your host Victoria Seibert, to share her thoughts about life, relationships, health, and everything in between.",
+    "A podcast, by your host Tina, to share her thoughts about life, relationships, health, and everything in between.",
 };
 
 export default function RootLayout({
