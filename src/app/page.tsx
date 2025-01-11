@@ -1,6 +1,8 @@
 import { episodes, podcastInfo } from "@/data/episodes";
 
 export default function Home() {
+  episodes.sort((a, b) => b.id - a.id);
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-black text-white">
       <header className="pt-20 pb-16 px-8 text-center bg-gradient-to-b from-gray-800/50">
