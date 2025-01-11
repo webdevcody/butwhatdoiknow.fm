@@ -37,7 +37,7 @@ export const podcastInfo: PodcastInfo = {
   author: "Victoria Seibert",
   email: "vmatandiko@gmail.com",
   copyright: `© ${new Date().getFullYear()} Victoria Seibert`,
-  image: "/images/cover-art.jpeg",
+  image: "/images/coverart.jpeg",
   category: "Society & Culture",
   explicit: false,
   websiteUrl: "https://butwhothehellknows.com",
